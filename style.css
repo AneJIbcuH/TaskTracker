@@ -1,0 +1,86 @@
+body {
+    background: lightgrey;
+  }
+  
+  .taskName {
+    height: 30px;
+    width: 460px;
+    background: #000;
+    color: lightsalmon;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .subTaskName {
+    height: 30px;
+    width: 300px;
+    background: #000;
+    color: lightsalmon;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .subTaskTime {
+    height: 30px;
+    width: 150px;
+    background: #000;
+    color: lightsalmon;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .all {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+  }
+  
+  .btnAST {
+    margin-top: 10px;
+    height: 30px;
+    width: 460px;
+    background: lightsalmon;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .btnSTLS {
+    margin-top: 10px;
+    height: 30px;
+    width: 460px;
+    background: grey;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .btnAT {
+    margin-top: 10px;
+    height: 30px;
+    width: 460px;
+    background: lightsalmon;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .btnLTFLS {
+    margin-top: 10px;
+    height: 30px;
+    width: 460px;
+    background: grey;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .btnR {
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    background: grey;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .m10 {
+    margin-top: 10px;
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class='all'>
+      <p>Название задачи</p>
+  <input type="text" placeholder='Введите название задачи' class='taskName'>
+  <p>Список подзадач</p>
+  <div>
+    <input type="text" placeholder='Введите название подзадачи' class='subTaskName'>
+    <input type="number" placeholder='Часов на выполнение' class='subTaskTime'>
+    <div class='subMenuTask'></div>
+  </div>
+  <button class='btnAST' onclick='addSubTask()'>Добавить подзадачу</button>
+  <button class='btnSTLS' onclick='saveToLS()'>Сохранить задачи в Localstorage</button> <button class='btnAT' onclick='addTask()'>Создать новую задачу</button> <button class='btnLTFLS' onclick='loadLS()'>Загрузить задачи из Localstorage</button>
+  <div class='list'></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
